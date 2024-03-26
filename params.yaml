@@ -1,1 +1,9 @@
-key : val
+AUGMENTATION: True
+ # as per VGG 16 model
+BATCH_SIZE: 8
+
+EPOCHS: 50
+CLASSES: 6
+WEIGHTS: imagenet 
+LEARNING_RATE: 0.001
+
