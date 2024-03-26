@@ -1,7 +1,7 @@
 import tensorflow as tf
 from pathlib import Path
 import mlflow
-import shutil
+#import shutil
 import mlflow.keras
 import numpy as np
 from urllib.parse import urlparse
@@ -64,10 +64,10 @@ class Evaluation:
         logger.info(cm)
         logger.info(print(classification_report(self.test_generator.classes,y_pred)))
         
-    def move_model(self):
-        source_path=self.config.path_of_model
-        destination_path=Path(r"C:\Users\judirispah\Chest-Disease-Classification-using-CT-scan\model")
-        shutil.copy(source_path, destination_path)
+    #def move_model(self):
+       # source_path=self.config.path_of_model
+        #destination_path=Path(r"C:\Users\judirispah\Chest-Disease-Classification-using-CT-scan\model")
+        #shutil.copy(source_path, destination_path)
     
     
     
