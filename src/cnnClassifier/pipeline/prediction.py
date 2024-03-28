@@ -30,26 +30,26 @@ class PredictionPipeline:
         print(result)
 
         if result == 0:
-            prediction = 'Adenocarcinoma Cancer'
-            return [{ "image" : prediction}]
+            prediction = 'Adenocarcinoma'
+            return [{"Diagnosed with":prediction}]
 
         if result == 1:
             prediction = 'Covid'
-            return [{ "image" : prediction}]
+            return [{"Diagnosed with":prediction}]
         
         
         if result == 2:
-            prediction = 'Large cell carcinoma cancer'
-            return [{ "image" : prediction}]
+            prediction = 'Largecell Carcinoma'
+            return [{"Diagnosed with":prediction}]
         
         if result == 3:
             prediction = 'Normal'
-            return [{ "image" : prediction}]
+            return [{"Good to know you are":prediction}]
         
         if result == 4:
             prediction = 'Pneumonia'
-            return [{ "image" : prediction}]
+            return [{"Diagnosed with":prediction}]
         
         if result == 5:
-            prediction = 'Squamous carcinoma Cancer'
-            return [{ "image" : prediction}]
+            prediction ='Squamous Carcinoma'
+            return [{ "Diagnosed with":prediction}]
