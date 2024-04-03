@@ -27,8 +27,7 @@ class PredictionPipeline:
         test_image = preprocess_input(test_image)
         test_image=test_image/225
         result = np.argmax(model.predict(test_image), axis=1)
-        print(result)
-
+       
         if result == 0:
             prediction = 'Adenocarcinoma'
             return [{"Diagnosed with":prediction}]
