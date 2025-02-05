@@ -1,5 +1,5 @@
 # Chest-Disease-Classification-using-CT-scan
-Workflows
+## Workflows
 Update config.yaml
 Update params.yaml
 Update the entity
