@@ -109,6 +109,8 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 
 ![Screenshot (97)](https://github.com/user-attachments/assets/0ea82693-aa45-4c1f-b9f6-3eb207382b87)
 
+![Screenshot (116)](https://github.com/user-attachments/assets/d1bfb5ce-5430-4253-adb2-15d3a57ad370)
+
 
 
 
