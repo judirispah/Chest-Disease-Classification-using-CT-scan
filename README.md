@@ -35,7 +35,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 🔹 Utilize **transfer learning** for enhanced feature extraction.  
 🔹 Enable **automated tracking of experiments** using MLflow.  
 🔹 Implement **data versioning** with DVC for reproducibility.  
-🔹 Deploy the model using **FastAPI on AWS EC2** with Docker and CI/CD.  
+🔹 Deploy the model using **Flask on AWS EC2** with Docker and CI/CD.  
 
 ---
 
@@ -45,7 +45,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 ✅ **96% Accuracy** – Achieved high performance using transfer learning.  
 ✅ **MLflow for Experiment Tracking** – Compares different model versions.  
 ✅ **DVC for Data Versioning** – Ensures dataset consistency.  
-✅ **FastAPI for Deployment** – Serves predictions via REST API.  
+✅ **Flask for Deployment** – Serves predictions via REST API.  
 ✅ **AWS EC2 + Docker** – Scalable cloud-based deployment with CI/CD.  
 
 ---
@@ -65,7 +65,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 - Logs **hyperparameters, metrics, and model versions**.  
 - Compares multiple experiments to select the **best-performing model**.  
 
-### 📌 Step 4: Deployment with FastAPI & AWS  
+### 📌 Step 4: Deployment with flask & AWS  
 - The trained model is deployed as a **REST API** using FastAPI.  
 - Docker containerization ensures **portability**.  
 - **CI/CD pipeline** automates deployment on **AWS EC2**.  
@@ -90,7 +90,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 | Component       | Technology Used |
 |----------------|----------------|
 | **Model**      | Transfer Learning (ResNet) 🧠 |
-| **Backend**    | FastAPI 🚀 |
+| **Backend**    | Flask 🚀 |
 | **Experiment Tracking** | MLflow 📊 |
 | **Data Versioning** | DVC 📂 |
 | **Deployment** | Docker, AWS EC2 ☁ |
