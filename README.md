@@ -57,7 +57,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 - **Data augmentation** is applied to improve generalization.  
 
 ### 📌 Step 2: Model Training  
-- Uses **pretrained CNN models** (e.g., ResNet]) for feature extraction.  
+- Uses **pretrained CNN models** (e.g., Vgg16) for feature extraction.  
 - Trains a **multi-class classifier** on labeled CT scan images.  
 - Optimized with **Adam optimizer** and **categorical cross-entropy loss**.  
 
@@ -89,7 +89,7 @@ This project is an **AI-powered medical diagnosis system** that classifies chest
 
 | Component       | Technology Used |
 |----------------|----------------|
-| **Model**      | Transfer Learning (ResNet) 🧠 |
+| **Model**      | Transfer Learning (vgg16) 🧠 |
 | **Backend**    | Flask 🚀 |
 | **Experiment Tracking** | MLflow 📊 |
 | **Data Versioning** | DVC 📂 |
